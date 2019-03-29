@@ -1,4 +1,4 @@
-const mTKey = '94a14ddae2e807d4b743bda48a9124d7352bc7ce95e766992d6525190756ffdc';
+const mTKey = '';
 
 /* ***Guide Center Display Functions*** */
 class KnowledgebaseArticle {
