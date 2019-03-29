@@ -1,0 +1,106 @@
+._pendo-launcher-section-body_ {
+    height: 340px;
+    overflow-y: auto;
+}
+
+/* Button CSS */
+._pendo-launcher-guide-listing {
+    display: flex;
+    flex-direction: column;
+}
+
+._pendo-launcher-item_ {
+    background: #fff;
+    color: #3C72C3;
+    border: 1px solid transparent;
+    text-align: left;
+    padding: 5px 35px;
+    cursor: pointer;
+}
+
+._pendo-launcher-item_:hover {
+    text-decoration: underline;
+}
+
+/* Article Container */
+.article-display {
+    display: none;
+}
+
+.article-display-header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-button {
+    background: #fff;
+    color: #3C72C3;
+    border: 1px solid transparent;
+    text-align: left;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.display-button:hover {
+    text-decoration: underline;
+}
+
+/* Article CSS */
+.article-content {
+    font-family: Arial, sans-serif;
+    word-break: break-word;
+    padding: 0 15px;
+	line-height: 1.5;
+}
+
+.article-content .mt-video-widget {
+    display: none;
+}
+
+.article-content img {
+	max-width: 100%;
+}
+
+.article-content td {
+    width: 1%;
+    text-align: center;
+}
+
+.article-content td ul, .article-content td li {
+    text-align: left;
+}
+
+.article-content p, .article-content li {
+    font-size: 12px;
+}
+
+.article-content h2 {
+    font-size: 2em;
+    margin: 10px auto;
+}
+
+.article-content h2.editable {
+    font-size: 1.5em;
+}
+
+.article-content h3 {
+    font-size: 1em;
+}
+
+.article-content blockquote {
+    background: #f8f8f8;
+    border-left: 5px solid #00a2c2;
+}
+
+.article-content blockquote p {
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.article-content blockquote ul, .article-content blockquote ol {
+    margin: 0;
+}
